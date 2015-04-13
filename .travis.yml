@@ -1,7 +1,7 @@
 language: python
 
 install:
-  - pip install https://pypi.python.org/packages/source/t/transifex-client/transifex-client-0.11.1.beta.tar.gz#md5=42ce2b40209f790c1a3f1c4991b0463e
+  - pip install "https://pypi.python.org/packages/source/t/transifex-client/transifex-client-0.11.1.beta.tar.gz#md5=42ce2b40209f790c1a3f1c4991b0463e"
 
 script:
   - echo "Run something"
