@@ -1,10 +1,10 @@
 language: python
 
-install:
-  - pip install transifex-client
+addons:
+  transifex: true
 
 script:
   - echo "Run something"
 
-after_success:
-  - ./transifex.sh
+after_script:
+  - ls -l ~/.transifexrc
