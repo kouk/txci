@@ -5,6 +5,7 @@ addons:
   auto_push:
     enabled: true
     branches: addons
+    job: 1
 
 script:
   - echo "Run something"
